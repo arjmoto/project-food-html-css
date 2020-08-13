@@ -1,0 +1,165 @@
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .booking-area {
+        padding: 70px 0
+    }
+}
+
+@media (max-width: 575px) {
+    .booking-area {
+        padding: 70px 0
+    }
+}
+
+.booking-area .booking-wrap {
+    padding: 70px 60px 40px 60px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 79px 0px rgba(0, 0, 0, 0.08);
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .booking-area .booking-wrap {
+        padding: 50px 46px 20px 42px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .booking-area .booking-wrap {
+        padding: 50px 30px 13px 30px
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .booking-area .booking-wrap {
+        padding: 50px 30px 13px 30px
+    }
+}
+
+@media (max-width: 575px) {
+    .booking-area .booking-wrap {
+        padding: 50px 20px 13px 20px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .booking-area .booking-wrap {
+        flex-wrap: wrap
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .booking-area .booking-wrap {
+        flex-wrap: wrap
+    }
+}
+
+@media (max-width: 575px) {
+    .booking-area .booking-wrap {
+        flex-wrap: wrap
+    }
+}
+
+.booking-area .booking-wrap .single-select-box {
+    width: 23%
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .booking-area .booking-wrap .single-select-box {
+        width: 48%
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .booking-area .booking-wrap .single-select-box {
+        width: 48%
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .booking-area .booking-wrap .single-select-box {
+        width: 48%
+    }
+}
+
+@media (max-width: 575px) {
+    .booking-area .booking-wrap .single-select-box {
+        width: 100%
+    }
+}
+
+.booking-area .booking-wrap .nice-select {
+    color: #9d9d9d;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 49px;
+    padding-right: 45px;
+    text-align: left !important;
+    line-height: 69px;
+    border: 0;
+    height: 65px;
+    width: 100%
+}
+
+.booking-area .booking-wrap .nice-select::after {
+    border-bottom: 2px solid #a3a3a3;
+    border-right: 2px solid #a3a3a3;
+    height: 7px;
+    right: 41px;
+    width: 7px
+}
+
+.booking-area .booking-wrap .nice-select.open .list {
+    width: 100%;
+    border-radius: 0
+}
+
+.booking-area .booking-wrap .nice-select .option {
+    color: #a3a3a3
+}
+
+.booking-area .booking-wrap .select-itms {
+    position: relative
+}
+
+.booking-area .booking-wrap .select-icon {
+    position: absolute;
+    z-index: 1;
+    left: 11px;
+    top: 20px;
+    color: #9d9d9d;
+    font-size: 20px
+}
+.gj-textbox-md {
+    color: #9d9d9d;
+    background-color: #f9f9f9;
+    border: 0;
+    height: 65px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+@media (max-width: 575px) {
+    .gj-picker.gj-picker-md.datepicker.gj-unselectable {
+        left: 20px !important
+    }
+}
+
+.gj-datepicker-md [role="right-icon"] {
+    position: absolute;
+    left: 14px;
+    top: 21px;
+    font-size: 24px;
+    color: #9d9d9d
+}
+
+.gj-timepicker-md [role="right-icon"] {
+    cursor: pointer;
+    position: absolute;
+    left: 11px;
+    top: 20px;
+    font-size: 24px;
+    color: #979695
+}
