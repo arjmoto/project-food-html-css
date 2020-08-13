@@ -1,0 +1,226 @@
+
+
+.footer-area .footer-top .single-footer-caption .footer-logo {
+    margin-bottom: 30px
+}
+
+.blogs-area {
+    position: relative
+}
+
+.blogs-area .single-blogs {
+    position: relative
+}
+
+.blogs-area .single-blogs .blog-img img {
+    width: 100%
+}
+
+.blogs-area .single-blogs .blog-cap {
+    padding: 29px 20px 20px 31px;
+    background: #f7f9f8;
+    position: absolute;
+    bottom: -63px;
+    right: 0;
+    width: 94%;
+    border-radius: 5px;
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s
+}
+
+.blogs-area .single-blogs .blog-cap span {
+    color: #828fa3;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 15px;
+    display: inline-block
+}
+
+.blogs-area .single-blogs .blog-cap h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #212025
+}
+
+@media (max-width: 575px) {
+    .blogs-area .single-blogs .blog-cap h4 {
+        font-size: 17px
+    }
+}
+
+.blogs-area .single-blogs .blog-cap h4 a {
+    font-weight: 700;
+    line-height: 1.4
+}
+
+.blogs-area .single-blogs .blog-cap h4 a:hover {
+    color: #ff5600
+}
+
+.blogs-area .single-blogs:hover .blog-cap {
+    background: #ff5600
+}
+
+.blogs-area .single-blogs:hover .blog-cap h4 a {
+    color: #fff
+}
+
+.blogs-area .single-blogs:hover .blog-cap span {
+    color: #fff
+}
+
+.latest-blog-area .area-heading {
+    margin-bottom: 70px
+}
+
+.blog_area a {
+    color: "Josefin Sans", sans-serif !important;
+    text-decoration: none;
+    transition: .4s
+}
+
+.blog_area a:hover,
+.blog_area a:hover {
+    background: -webkit-linear-gradient(131deg, #ff5600 0%, #ff5600 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    transition: .4s
+}
+
+.single-blog {
+    overflow: hidden;
+    margin-bottom: 30px
+}
+
+.single-blog:hover {
+    box-shadow: 0px 10px 20px 0px rgba(42, 34, 123, 0.1)
+}
+
+.single-blog .thumb {
+    overflow: hidden;
+    position: relative
+}
+
+.single-blog .thumb:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s
+}
+
+.single-blog h4 {
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 34px;
+    margin-bottom: 25px
+}
+
+.single-blog a {
+    font-size: 20px;
+    font-weight: 600
+}
+
+.single-blog .date {
+    color: #666666;
+    text-align: left;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300
+}
+
+.single-blog .tag {
+    text-align: left;
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    font-weight: 300;
+    margin-right: 22px;
+    position: relative
+}
+
+.single-blog .tag:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background: #acacac;
+    right: -12px;
+    top: 7px
+}
+
+@media (max-width: 1199px) {
+    .single-blog .tag {
+        margin-right: 8px
+    }
+
+    .single-blog .tag:after {
+        display: none
+    }
+}
+
+.single-blog .likes {
+    margin-right: 16px
+}
+
+@media (max-width: 800px) {
+    .single-blog {
+        margin-bottom: 30px
+    }
+}
+
+.single-blog .single-blog-content {
+    padding: 30px
+}
+
+.single-blog .single-blog-content .meta-bottom p {
+    font-size: 13px;
+    font-weight: 300
+}
+
+.single-blog .single-blog-content .meta-bottom i {
+    color: #fdcb9e;
+    font-size: 13px;
+    margin-right: 7px
+}
+
+@media (max-width: 1199px) {
+    .single-blog .single-blog-content {
+        padding: 15px
+    }
+}
+
+.single-blog:hover .thumb:after {
+    opacity: .7;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s
+}
+
+@media (max-width: 1199px) {
+    .single-blog h4 {
+        transition: all 300ms linear 0s;
+        border-bottom: 1px solid #dfdfdf;
+        padding-bottom: 14px;
+        margin-bottom: 12px
+    }
+
+    .single-blog h4 a {
+        font-size: 18px
+    }
+}
