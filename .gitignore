@@ -1,0 +1,13 @@
+#scss
+assets/scss
+#css ignore
+assets/css/style.map
+assets/css/styley.css
+assets/css/stylez.css
+assets/css/slick1.css
+assets/css/styleCopy.css
+assets/css/main.css
+assets/css/responsive.css
+assets/css/price_rangs.css
+#index2.html
+index2.html
